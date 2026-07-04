@@ -7,5 +7,6 @@ document.querySelector
 document.querySelectorAll*/
 let abcd=document.getElementById("abcd");
 let beta= document.getElementsByClassName("hii");
-console.log(beta);
+console.log(beta[0].textContent);
 console.dir(abcd);
+console.log(beta);
