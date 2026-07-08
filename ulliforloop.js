@@ -9,13 +9,21 @@
  //for(i=0;i<list.length;i++){
 //    console.log(list[i].textContent);
 // }
- //moving thi li to the last of the ul 
-    
+ 
+    {
  let hi=document.querySelector("ul"); 
   let li=document.createElement("li")
   li.textContent="hllo"
 
  hi.appendChild(li);
+    }//moving thi li to the last of the ul 
+
+    {//now we have to select  first element from the list and delete it from dom
+      }
+
+      let del=document.querySelectorAll("li");
+      del[3].remove();
+      console.log(del);
 
 
 
