@@ -21,5 +21,5 @@ document.querySelector("img").setAttribute("src" , "https://images.unsplash.com/
 let image= document.createElement("img");
 image.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCdPTR5mXVlGkSvBU69wpgWyUDft8jvAE3LCsbaFO-9zHxPWbYnuezfFG&s=10")
 
-
+image.classList.add("placeholder");
 let div= document.querySelector("div").prepend(image);
