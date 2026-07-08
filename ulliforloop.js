@@ -18,7 +18,7 @@
  hi.appendChild(li);
     }//moving thi li to the last of the ul 
 
-    {//now we have to select  first element from the list and delete it from dom
+    {//now we have to select  an  element from the list and delete it from dom
       }
 
       let del=document.querySelectorAll("li");
